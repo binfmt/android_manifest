@@ -11,6 +11,7 @@
   <remote name="robh" fetch="http://github.com/robherring" />
   <remote name="freedesktop" fetch="git://anongit.freedesktop.org/" />
   <remote name="x86" fetch="git://gitscm.sf.net/gitroot/android-x86/" />
+  <remote name="swiftshader" fetch="https://swiftshader.googlesource.com/" />
 
   <!-- Linaro Device Configs -->
 
@@ -37,5 +38,7 @@
   <project path="external/libdrm" name="mesa/drm" revision="master" remote="freedesktop" groups="default" />
 
   <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="master" remote="robh" groups="default" />
+
+  <project path="external/swiftshader" name="SwiftShader" revision="cloud-android-current-release" remote="swiftshader" groups="default" />
 
 </manifest>
