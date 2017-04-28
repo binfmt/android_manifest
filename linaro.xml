@@ -8,12 +8,16 @@
 
   <remote name="github" fetch="http://github.com/96boards" />
   <remote name="robh" fetch="http://github.com/robherring" />
+  <remote name="johnstultz" fetch="https://git.linaro.org/people/john.stultz" />
   <remote name="freedesktop" fetch="git://anongit.freedesktop.org/" />
   <remote name="x86" fetch="git://gitscm.sf.net/gitroot/android-x86/" />
   <remote name="swiftshader" fetch="https://swiftshader.googlesource.com/" />
 
   <!-- Linaro Device Configs -->
   <project path="device/linaro/generic" name="generic_device" revision="master" remote="robh" groups="default" />
+
+  <!-- Pre-built kernel tree -->
+  <project path="device/linaro/generic-kernels" name="AOSP/device/linaro/generic-kernels.git" revision="master" remote="johnstultz" groups="default" />
 
   <!-- Critical drm_hwcomposer components -->
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
