@@ -39,6 +39,6 @@
   <project path="external/swiftshader" name="SwiftShader" revision="cloud-android-current-release" remote="swiftshader" groups="default" />
 
   <!-- Linaro Kernels -->
-  <project path="kernel/common" name="kernel/common" revision="android-4.4" groups="default" />
+  <project path="kernel/common" name="kernel/common" revision="android-4.9" groups="default" />
 
 </manifest>
