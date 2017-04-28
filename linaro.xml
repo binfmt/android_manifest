@@ -13,15 +13,9 @@
   <remote name="swiftshader" fetch="https://swiftshader.googlesource.com/" />
 
   <!-- Linaro Device Configs -->
-
   <project path="device/linaro/generic" name="generic_device" revision="master" remote="robh" groups="default" />
 
-  <!-- Linaro Kernels -->
-  <project path="kernel/common" name="kernel/common" revision="android-4.4" groups="default" />
-  <project path="kernel/linaro/hisilicon" name="linux" revision="android-hikey-linaro-4.1" remote="github" groups="default" />
-
-  <project path="external/libpciaccess" name="libpciaccess" remote="robh" revision="master" />
-
+  <!-- Critical drm_hwcomposer components -->
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mesa3d" name="mesa" revision="android-m" remote="robh" groups="default" />
 
@@ -33,8 +27,14 @@
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <project path="external/libdrm" name="mesa/drm" revision="master" remote="freedesktop" groups="default" />
 
+  <!-- Extra features -->
+  <project path="external/libpciaccess" name="libpciaccess" remote="robh" revision="master" />
+
   <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="master" remote="robh" groups="default" />
 
   <project path="external/swiftshader" name="SwiftShader" revision="cloud-android-current-release" remote="swiftshader" groups="default" />
+
+  <!-- Linaro Kernels -->
+  <project path="kernel/common" name="kernel/common" revision="android-4.4" groups="default" />
 
 </manifest>
