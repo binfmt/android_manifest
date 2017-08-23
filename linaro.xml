@@ -36,8 +36,6 @@
 
   <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="master" remote="robh" groups="default" />
 
-  <project path="external/swiftshader" name="SwiftShader" revision="cloud-android-current-release" remote="swiftshader" groups="default" />
-
   <!-- Linaro Kernels -->
   <project path="kernel/common" name="kernel/common" revision="android-4.9" groups="default" />
 
