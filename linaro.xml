@@ -24,7 +24,6 @@
 
   <!-- Critical drm_hwcomposer components -->
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
-  <project path="external/mesa3d" name="mesa" revision="android-m" remote="robh" groups="default" />
 
   <project path="external/gbm_gralloc" name="gbm_gralloc" revision="master" remote="robh" groups="default" />
 
