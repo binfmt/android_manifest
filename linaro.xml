@@ -12,12 +12,15 @@
   <remote name="freedesktop" fetch="git://anongit.freedesktop.org/" />
   <remote name="x86" fetch="git://gitscm.sf.net/gitroot/android-x86/" />
   <remote name="swiftshader" fetch="https://swiftshader.googlesource.com/" />
+  <remote name="korg" fetch="git://git.kernel.org/pub/scm/linux/kernel/git/" />
 
   <!-- Linaro Device Configs -->
   <project path="device/linaro/generic" name="generic_device" revision="master" remote="robh" groups="default" />
 
   <!-- Pre-built kernel tree -->
   <project path="device/linaro/generic-kernels" name="AOSP/device/linaro/generic-kernels.git" revision="master" remote="johnstultz" groups="default" />
+
+  <project path="external/linux-firmware" name="firmware/linux-firmware.git" revision="master" remote="korg" groups="default" />
 
   <!-- Critical drm_hwcomposer components -->
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
